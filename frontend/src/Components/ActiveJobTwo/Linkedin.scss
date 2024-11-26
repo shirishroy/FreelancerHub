@@ -1,0 +1,58 @@
+.left {
+    padding: 20px;
+}
+
+.right {
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.job-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+   
+}
+
+.imageoffreelancer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.jobtitle{
+    color: rgb(38, 87, 201);
+    font-weight: bold;
+}
+.job-item:hover{
+    background-color: rgb(114, 152, 186);
+    transform: scale(1.1);
+}
+.paymentButton{
+    background-color:rgb(38, 87, 201) ;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.msginhimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+.popup-btn{
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(38, 87, 201) ;
+    
+}
+.link{
+    text-decoration: none;
+}
+
+.pointer{
+    cursor: pointer;
+}

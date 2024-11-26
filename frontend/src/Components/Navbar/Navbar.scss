@@ -1,0 +1,110 @@
+
+.navbar {
+    z-index: 1000;
+      display: flex;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      align-items: center;
+      transition: 0.5s all ease;
+      font-family: sans-serif;
+      background-color: rgb(28, 28, 46);
+      color: white;
+      flex-direction: column;
+      &.active{
+          background-color:  rgb(28, 28, 46);
+      }
+    
+      .container {
+        width: 100%;
+        max-width: 1400px;
+        // padding: 20px;
+        transition: transform 0.5s linear;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .logo {
+          font-size: 40px;
+          font-weight: bold;
+          .skill {
+          }
+          .bridge {
+            color: rgb(15, 115, 222);
+          }
+        }
+    
+        .links {
+          display: flex;
+          gap: 25px;
+          font-weight: 500;
+          align-items: center;
+          font-size: 1.12rem;
+  
+          .user{
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              cursor: pointer;
+              position: relative;
+              img{
+                  width: 34px;
+                  height: 34px;
+                  border-radius: 50%;
+                  object-fit: cover;
+              }
+              .options{
+                  width: 160%;
+                  position: absolute;
+                  top: 48px;
+                  right: 0;
+                  padding: 21px;
+                  background-color: #fff;
+                  border: 1px solid lightgray;
+                  border-radius: 11px;
+                  display: flex;
+                  flex-direction: column;
+                  color: gray;
+                  gap: 10px;
+  
+              }
+          }
+        }
+      }
+    
+      hr {
+        width: 100%;
+        height: 0;
+        border: 0.5px solid rgba(211, 211, 211, 0.824);
+      }
+    
+      .menu {
+          display: flex;
+          justify-content: space-between;
+        color: gray;
+        width: 100%;
+        max-width: 1400px;
+        padding: 12px 0px;
+        
+      }
+  
+    }
+    
+    
+  
+    .navbtn {
+      color: white;
+      background-color: rgb(58, 102, 224);
+      padding: 8px 16px;
+      cursor: pointer;
+      border: 1px solid white;
+      border-radius: 6px;
+      font-size: 1.12rem;
+      &:hover {
+        background-color: rgb(40, 51, 182);
+        border-color: rgb(156, 157, 164);
+      }
+    }
+    .zindexNav{
+      z-index: 1000;
+    }
